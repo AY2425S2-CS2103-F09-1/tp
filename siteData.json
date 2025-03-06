@@ -8,6 +8,7 @@
         "project-team": "Project team",
         "about-us": "About Us",
         "project-team-2": "Project team",
+        "dexter-leng": "Dexter Leng",
         "jovan-yo": "Jovan Yo",
         "adwin-ang": "Adwin Ang",
         "kara-rei": "Kara Rei",
@@ -138,6 +139,15 @@
     {
       "src": "team/angYongXiangAdwin.md",
       "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/dexterleng.md",
+      "title": "Dexter Leng's Project Portfolio Page",
+      "headings": {
+        "project-travelhub": "Project: TravelHub",
+        "to-be-updated": "To be updated!"
+      },
       "headingKeywords": {}
     },
     {
