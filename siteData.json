@@ -5,11 +5,13 @@
       "src": "AboutUs.md",
       "title": "About Us",
       "headings": {
-        "about-us": "About Us",
         "project-team": "Project team",
+        "about-us": "About Us",
+        "project-team-2": "Project team",
         "jovan-yo": "Jovan Yo",
         "adwin-ang": "Adwin Ang",
-        "kara-rei": "Kara Rei"
+        "kara-rei": "Kara Rei",
+        "zyon-wee": "Zyon Wee"
       },
       "headingKeywords": {}
     },
@@ -150,6 +152,14 @@
     {
       "src": "team/suspectblue.md",
       "title": "Jovan Yo's Project Portfolio Page",
+      "headings": {
+        "project-travelhub": "Project: TravelHub"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/zyonwee.md",
+      "title": "Zyon Wee's Project Portfolio Page",
       "headings": {
         "project-travelhub": "Project: TravelHub"
       },
