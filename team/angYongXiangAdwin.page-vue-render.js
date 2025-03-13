@@ -8,6 +8,6 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""
 with(this){return _c('div',{attrs:{"id":"content-wrapper"}},[_c('p',[_c('a',{attrs:{"href":"/tp/images/adwinang.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/adwinang.png","alt":"A photo of Adwin"}})]),_v("\nHi my name is Ang Yong Xiang Adwin, or you can call me Adwin for short.")]),_v(" "),_c('p',[_v("I am a Year 2 Computer Science Student in NUS. I came from Ngee Ann Polytechnic where I studied Information Technology Diploma.")]),_v(" "),_c('p',[_v("Fun Fact about myself, the two times I have been to US were both sponsored by Ngee Ann Polytechnic (got quite lucky there).")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 6 Mar 2025, 21:06:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 13 Mar 2025, 10:26:40 GMT+8]")])])])}
 }];
   
