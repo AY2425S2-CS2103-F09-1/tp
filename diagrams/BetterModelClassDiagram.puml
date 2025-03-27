@@ -18,4 +18,18 @@ Person *--> Name
 Person *--> Phone
 Person *--> Email
 Person *--> Address
+
+TripBook *-right-> "1" UniqueTripList
+UniqueTripList -[hidden]down- UniquePersonList
+UniqueTripList -[hidden]down- UniqueTagList
+
+UniqueTripList -right-> Trip
+
+Trip *--> TripName
+Trip *--> Accommodation
+Trip *--> Itinerary
+Trip *--> TripDate
+Trip *--> Note
+Trip *--> CustomerName
+
 @enduml
