@@ -1,0 +1,73 @@
+@startuml ListTripSequenceDiagram
+!include style.puml
+skinparam ArrowFontStyle plain
+
+box Logic LOGIC_COLOR_T1
+participant ":LogicManager" as LogicManager LOGIC_COLOR
+participant ":AddressBookParser" as AddressBookParser LOGIC_COLOR
+participant ":ListTripCommandParser" as ListTripCommandParser LOGIC_COLOR
+participant "l:ListTripCommand" as ListTripCommand LOGIC_COLOR
+participant "r:CommandResult" as CommandResult LOGIC_COLOR
+end box
+
+box Model MODEL_COLOR_T1
+participant "m:Model" as Model MODEL_COLOR
+end box
+
+[-> LogicManager : execute("listTrip 01/01/2025")
+activate LogicManager
+
+LogicManager -> AddressBookParser : parseCommand("listTrip 01/01/2025")
+activate AddressBookParser
+
+create ListTripCommandParser
+AddressBookParser -> ListTripCommandParser
+activate ListTripCommandParser
+
+ListTripCommandParser --> AddressBookParser
+deactivate ListTripCommandParser
+
+AddressBookParser -> ListTripCommandParser : parse("01/01/2025")
+activate ListTripCommandParser
+
+create ListTripCommand
+ListTripCommandParser -> ListTripCommand
+activate ListTripCommand
+
+ListTripCommand --> ListTripCommandParser : l
+deactivate ListTripCommand
+
+ListTripCommandParser --> AddressBookParser : l
+deactivate ListTripCommandParser
+
+AddressBookParser --> LogicManager : l
+deactivate AddressBookParser
+
+LogicManager -> ListTripCommand : execute(m)
+activate ListTripCommand
+
+alt date == null
+    ListTripCommand -> Model : updateFilteredTripList(PREDICATE_SHOW_ALL_TRIPS)
+else date != null
+    ListTripCommand -> Model : updateFilteredTripList(predicate by date)
+end
+
+activate Model
+Model --> ListTripCommand : confirmation of filter.
+ListTripCommand -> Model : getFilteredTripList()
+Model --> ListTripCommand : list of trips.
+deactivate Model
+
+create CommandResult
+ListTripCommand -> CommandResult
+activate CommandResult
+
+CommandResult --> ListTripCommand
+deactivate CommandResult
+
+ListTripCommand --> LogicManager : r
+deactivate ListTripCommand
+
+[<--LogicManager
+deactivate LogicManager
+@enduml
