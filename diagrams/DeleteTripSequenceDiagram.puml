@@ -1,0 +1,39 @@
+@startuml DeleteTripSequenceDiagram
+
+title Sequence Diagram for Delete Trip Command
+
+actor User
+participant ":MainWindow" as MainWindow
+participant ":LogicManager" as LogicManager
+participant ":DeleteTripCommand" as DeleteCommand
+participant ":ModelManager" as ModelManager
+participant ":TripBook" as TripBook
+
+User -> MainWindow : enters "deleteTrip 1"
+MainWindow -> LogicManager : execute("deleteTrip 1")
+
+group Command Execution
+    LogicManager -> DeleteCommand : execute(model)
+    activate DeleteCommand
+
+    DeleteCommand -> ModelManager : getFilteredTripList()
+    ModelManager --> DeleteCommand : filteredList
+    DeleteCommand -> DeleteCommand : validate(1)
+
+    alt Index valid
+        DeleteCommand -> ModelManager : deleteTrip(index)
+        ModelManager -> TripBook : removeTrip(index)
+        TripBook --> ModelManager : updatedTripBook
+        ModelManager --> DeleteCommand : void
+        DeleteCommand --> LogicManager : CommandResult\n("Deleted Trip: [Trip 1 Details]")
+    else Index invalid
+        DeleteCommand --> LogicManager : CommandException\n("The trip index provided is invalid")
+    end
+
+    deactivate DeleteCommand
+end
+
+LogicManager --> MainWindow : result feedback
+MainWindow -> User : shows result
+
+@enduml
