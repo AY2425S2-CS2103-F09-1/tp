@@ -64,6 +64,7 @@
         "trip-and-contact-relationship-implementation": "Trip and Contact Relationship Implementation",
         "escape-character-for-notes": "Escape Character for Notes",
         "add-end-date-for-trips": "Add End Date for Trips",
+        "make-commands-case-insensitive": "Make Commands Case-Insensitive",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-contact": "Deleting a contact",
