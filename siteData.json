@@ -52,7 +52,22 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
-        "trip-management-system": "Trip Management System"
+        "trip-management-system": "Trip Management System",
+        "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
+        "appendix-requirements": "Appendix: Requirements",
+        "product-scope": "Product scope",
+        "user-stories": "User stories",
+        "use-cases": "Use cases",
+        "non-functional-requirements": "Non-Functional Requirements",
+        "glossary": "Glossary",
+        "planned-enhancement": "Planned Enhancement",
+        "trip-and-contact-relationship-implementation": "Trip and Contact Relationship Implementation",
+        "escape-character-for-notes": "Escape Character for Notes",
+        "add-end-date-for-trips": "Add End Date for Trips",
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "launch-and-shutdown": "Launch and shutdown",
+        "deleting-a-contact": "Deleting a contact",
+        "saving-data": "Saving data"
       },
       "headingKeywords": {}
     },
