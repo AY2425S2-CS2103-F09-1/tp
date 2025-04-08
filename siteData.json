@@ -102,6 +102,7 @@
         "features": "Features",
         "contact-parameters": "Contact Parameters",
         "trip-parameters": "Trip Parameters",
+        "command-descriptions": "Command Descriptions",
         "adding-a-contact-addcontact": "Adding a contact: addContact",
         "adding-a-trip-addtrip": "Adding a trip : addTrip",
         "clearing-all-entries-clear": "Clearing all entries : clear",
