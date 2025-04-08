@@ -317,7 +317,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Edit a Contact")])])}
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Travel Agent requests to list all contacts.")])]),_v(" "),_c('li',[_c('p',[_v("InnSync shows a list of contacts.")])]),_v(" "),_c('li',[_c('p',[_v("Travel Agent requests to edit a specific contact via an index.")])]),_v(" "),_c('li',[_c('p',[_v("System validates the index and new contact details.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the contact with the new details.")])]),_v(" "),_c('li',[_c('p',[_v("System displays a success message for editing the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Travel Agent requests to list all contacts.")])]),_v(" "),_c('li',[_c('p',[_v("TravelHub shows a list of contacts.")])]),_v(" "),_c('li',[_c('p',[_v("Travel Agent requests to edit a specific contact via an index.")])]),_v(" "),_c('li',[_c('p',[_v("System validates the index and new contact details.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the contact with the new details.")])]),_v(" "),_c('li',[_c('p',[_v("System displays a success message for editing the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -332,7 +332,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Edit a Trip")])])}
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Travel Agent requests to list all trips.")])]),_v(" "),_c('li',[_c('p',[_v("InnSync shows a list of trips.")])]),_v(" "),_c('li',[_c('p',[_v("Travel Agent requests to edit a specific trip via an index.")])]),_v(" "),_c('li',[_c('p',[_v("System validates the index and new trip details.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the trip with the new details.")])]),_v(" "),_c('li',[_c('p',[_v("System displays a success message for editing the trip.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Travel Agent requests to list all trips.")])]),_v(" "),_c('li',[_c('p',[_v("TravelHub shows a list of trips.")])]),_v(" "),_c('li',[_c('p',[_v("Travel Agent requests to edit a specific trip via an index.")])]),_v(" "),_c('li',[_c('p',[_v("System validates the index and new trip details.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the trip with the new details.")])]),_v(" "),_c('li',[_c('p',[_v("System displays a success message for editing the trip.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -503,6 +503,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Simulating a corrupted data file")]),_v(" "),_c('ol',[_c('li',[_v("Prerequisites: Have at least 1 contact in the addressbook.")]),_v(" "),_c('li',[_v("Navigate to the folder which contains the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Travelhub.jar")]),_v(" file.")]),_v(" "),_c('li',[_v("Navigate into the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data/")]),_v(" folder and open the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addressbook.json")]),_v(" file.")]),_v(" "),_c('li',[_v("Append any letter to the end of the value in the phone field, e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("\"phone\" : \"98765432Z\",")])]),_v(" "),_c('li',[_v("Start up the appplication.")])]),_v(" "),_c('p',[_v("Expected: Application starts up with an empty address book.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 10:37:44 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 10:44:04 GMT+8]")])])])}
 }];
   
